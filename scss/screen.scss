@@ -1,0 +1,62 @@
+@import "reset";
+@import "library";
+
+/* GENERAL */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 21px;
+    background: lightgrey;
+}
+
+a {
+    color: #800000;
+}
+
+p {
+    margin-bottom: 1.1em;
+}
+
+/* SPECIFIC */
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 20px;
+    background: white;
+}
+
+.content {
+    padding: 20px 0;
+    font-size: 0;
+
+    %column {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .main {
+        @extend %column;
+        width: 65%;
+        margin-right: 5%;
+        font-size: 1rem;
+    }
+
+    .side {
+        @extend %column;
+        width: 30%;
+        color: #666;
+        font-size: 14px;
+    }
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: .8em;
+}
