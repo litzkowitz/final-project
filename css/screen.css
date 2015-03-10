@@ -139,6 +139,7 @@ nav a {
   font-weight: 400;
   color: #000;
   text-decoration: none;
+  z-index: 10;
 }
 nav a:hover {
   border: 2px solid black;
@@ -149,6 +150,16 @@ h2 {
   margin: auto;
   text-transform: uppercase;
   font-weight: 400;
+}
+
+.default {
+  position: relative;
+  display: none;
+}
+
+.active {
+  display: block;
+  height: 100%;
 }
 
 .sporty {
