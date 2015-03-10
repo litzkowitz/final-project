@@ -10,13 +10,15 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     width: 100%;
-    height: 100%;
     font-size: 16px;
     margin: 0 auto;
     line-height: 21px;
     background-color: rgb(255, 223,0);
+}
 
-
+html, body {
+    min-height: 100%;
+    height: 100%;
 }
 
 a {
@@ -29,9 +31,9 @@ p {
 }
 
 /* SPECIFIC */
-
 .container {
-    height: 100%;
+    display: flex;
+    margin: 0;
     background-color: rgb(255, 223,0);
 }
 
@@ -60,6 +62,18 @@ p {
         }
 }
 
+.table-of-contents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    > section {
+        flex: 1 1 auto;
+        display: flex;
+    }
+}
+
 nav {
     a {
         float: left;
@@ -71,7 +85,7 @@ nav {
         width: 275px;
         border: 3px dotted black;
         border-radius: 50%;
-        padding: 60px;
+        padding: 50px;
         text-align: center;
         -webkit-transform: rotate(-25deg);
         font-weight: 400;
@@ -87,80 +101,58 @@ nav {
 
 h2 {
     font-size: 1.5rem;
-    padding: 29px;
+    margin: auto;
     text-transform: uppercase;
     font-weight: 400;
 }
 
 .sporty {
-    height: 10%;
     text-align: center;
     background-color: rgb(242, 158, 3);
-    display: block;
-
 }
 
 .outdoorsy {
-    height: 10%;
     text-align: center;
     background-color: rgb(39, 176, 89);
-    display: block;
-
 }
 
 .culinary {
-    height: 10%;
     text-align: center;
     background-color: rgb(51, 183, 228);
-    display: block;
 }
 
 .creative {
-    height: 10%;
     text-align: center;
     background-color: rgb(222, 94, 134);
-    display: block;
 }
 
 
 .social {
-    height: 10%;
     text-align: center;
     background-color: rgb(134, 128, 213);
-    display: block;
 }
 
 .brainy {
-    height: 10%;
     text-align: center;
     background-color: rgb(61, 171, 158);
-    display: block;
 }
 
 .crafty {
-    height: 10%;
     text-align: center;
     background-color: rgb(228, 161, 89);
-    display: block;
 }
 
 .gutsy {
     text-align: center;
-    height: 10%;
     background-color: rgb(92, 160, 211);
-    display: block;
 }
 
 .worldly {
-    height: 10%;
     text-align: center;
     background-color: rgb(231, 231, 47);
-    display: block;
 }
 
 .charitable {
-    height: 10%;
     text-align: center;
     background-color: rgb(116, 213, 48);
-    display: block;
 }
