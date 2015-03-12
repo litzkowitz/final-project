@@ -133,7 +133,7 @@ nav a {
   width: 200px;
   border: 2px dotted black;
   border-radius: 50%;
-  padding: 50px;
+  padding: 30px;
   text-align: center;
   -webkit-transform: rotate(-25deg);
   font-weight: 400;
@@ -154,9 +154,6 @@ h2 {
 
 .default {
   position: relative;
-  display: none;
-}
-.default h3 {
   display: none;
 }
 
@@ -182,9 +179,10 @@ h2 {
   background-color: #f29e03;
 }
 .sporty li {
-  font-weight: 700;
+  font-weight: 400;
+  font-size: 1.25rem;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
 }
 .sporty .active h2 {
   display: none;
@@ -202,7 +200,7 @@ h2 {
   margin-left: 50%;
 }
 .subject h3 {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .info {
@@ -210,11 +208,16 @@ h2 {
   width: 49%;
 }
 .info h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
   text-align: left;
-  margin-top: 125px;
+  margin-top: 100px;
+  margin-left: 0;
+  text-transform: none;
 }
 .info p {
   text-align: left;
+  margin-right: 40px;
 }
 
 .outdoorsy {
