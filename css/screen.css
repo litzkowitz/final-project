@@ -130,8 +130,8 @@ nav a {
   position: absolute;
   margin-top: 5%;
   margin-left: 5%;
-  width: 275px;
-  border: 3px dotted black;
+  width: 200px;
+  border: 2px dotted black;
   border-radius: 50%;
   padding: 50px;
   text-align: center;
@@ -156,15 +156,65 @@ h2 {
   position: relative;
   display: none;
 }
+.default h3 {
+  display: none;
+}
 
 .active {
   display: block;
+  position: relative;
+  text-align: center;
   height: 100%;
+  width: 100%;
+}
+.active h2 {
+  display: none;
+}
+.active h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 25px;
 }
 
 .sporty {
-  text-align: center;
+  display: inline-block;
   background-color: #f29e03;
+}
+.sporty li {
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.sporty .active h2 {
+  display: none;
+}
+
+.content {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.subject {
+  display: inline-block;
+  width: 49%;
+  margin-left: 50%;
+}
+.subject h3 {
+  padding-bottom: 50px;
+}
+
+.info {
+  display: inline-block;
+  width: 49%;
+}
+.info h3 {
+  text-align: left;
+  margin-top: 125px;
+}
+.info p {
+  text-align: left;
 }
 
 .outdoorsy {
