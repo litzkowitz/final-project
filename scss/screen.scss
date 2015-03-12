@@ -139,7 +139,7 @@ h2 {
             font-weight: 400;
             font-size: 1.25rem;
             text-align: center;
-            line-height: 2.5rem;
+            line-height: 2rem;
         }
 
         .active {
@@ -158,8 +158,7 @@ h2 {
 
 .subject {
     display: inline-block;
-    width: 49%;
-    margin-left: 50%;
+    margin-left: 40%;
 
     h3 {
         padding-bottom: 25px;
@@ -169,6 +168,7 @@ h2 {
 .info {
     display: inline-block;
     width: 49%;
+    margin-right: 50px;
 
         h3 {
             font-size: 1.25rem;
@@ -182,7 +182,6 @@ h2 {
 
         p {
             text-align: left;
-            margin-right: 40px;
         }
 }
 
