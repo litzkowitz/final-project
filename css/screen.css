@@ -183,12 +183,21 @@ h2 {
 }
 .active .subject {
   display: inline-block;
-  margin-left: 27%;
 }
 .active .subject h3 {
   padding-bottom: 25px;
 }
+.active .subject-on {
+  display: inline-block;
+  margin-left: 32%;
+}
+.active .subject-on h3 {
+  padding-bottom: 25px;
+}
 .active .info {
+  display: none;
+}
+.active .info-on {
   display: inline-block;
   width: 30%;
   padding-left: 75px;
@@ -196,35 +205,28 @@ h2 {
   margin-top: 70px;
   vertical-align: top;
 }
-.active .info h3 {
-  font-size: 1.25rem;
-  font-weight: 400;
+.active .info-on p {
   text-align: left;
-  margin-left: 0;
-  margin-bottom: 5px;
-  text-transform: none;
+  margin-top: 15px;
 }
-.active .info p {
-  text-align: left;
-}
-.active .info h4 {
+.active .info-on h4 {
   font-size: 1.25rem;
   text-align: left;
   margin-top: 25px;
   margin-bottom: 5px;
 }
-.active .info li {
+.active .info-on li {
   font-size: 1rem;
   text-align: left;
   line-height: 2rem;
 }
-.active .info a {
+.active .info-on a {
   font-size: 1rem;
   text-decoration: none;
   text-align: left;
   color: #000;
 }
-.active .info a:hover {
+.active .info-on a:hover {
   color: #fff;
 }
 

@@ -146,14 +146,27 @@ h2 {
 
     .subject {
         display: inline-block;
-        margin-left: 27%;
 
             h3 {
             padding-bottom: 25px;
             }
     }
 
+    .subject-on {
+        display: inline-block;
+        margin-left: 32%;
+
+        h3 {
+        padding-bottom: 25px;
+        }
+    }
+
+
     .info {
+        display: none;
+    }
+
+    .info-on {
         display: inline-block;
         width: 30%;
         padding-left: 75px;
@@ -161,17 +174,9 @@ h2 {
         margin-top: 70px;
         vertical-align: top;
 
-            h3 {
-                font-size: 1.25rem;
-                font-weight: 400;
-                text-align: left;
-                margin-left: 0;
-                margin-bottom: 5px;
-                text-transform: none;
-            }
-
             p {
                 text-align: left;
+                margin-top: 15px;
             }
 
             h4 {
@@ -197,7 +202,7 @@ h2 {
             a:hover {
                 color:#fff;
             }
-    }
+}
 
 }
 
