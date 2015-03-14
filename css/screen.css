@@ -66,6 +66,7 @@ body {
   font-size: 16px;
   margin: 0 auto;
   line-height: 21px;
+  background-color: #ffdf00;
 }
 
 html, body {
@@ -169,7 +170,7 @@ h2 {
   font-weight: 400;
   font-size: 1.25rem;
   text-align: center;
-  line-height: 2.5rem;
+  line-height: 2.75rem;
 }
 .active h2 {
   display: none;
@@ -178,21 +179,21 @@ h2 {
   text-align: center;
   font-size: 1.5rem;
   text-transform: uppercase;
-  margin: 25px;
+  margin: 15px;
 }
 .active .subject {
   display: inline-block;
-  padding-left: 30%;
+  margin-left: 27%;
 }
 .active .subject h3 {
   padding-bottom: 25px;
 }
 .active .info {
   display: inline-block;
-  width: 49%;
-  padding-left: 5%;
-  margin-right: 50px;
-  padding-right: 5%;
+  width: 30%;
+  padding-left: 75px;
+  margin-right: 25px;
+  margin-top: 70px;
   vertical-align: top;
 }
 .active .info h3 {
@@ -200,10 +201,31 @@ h2 {
   font-weight: 400;
   text-align: left;
   margin-left: 0;
+  margin-bottom: 5px;
   text-transform: none;
 }
 .active .info p {
   text-align: left;
+}
+.active .info h4 {
+  font-size: 1.25rem;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.active .info li {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 2rem;
+}
+.active .info a {
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: left;
+  color: #000;
+}
+.active .info a:hover {
+  color: #fff;
 }
 
 .sporty {
