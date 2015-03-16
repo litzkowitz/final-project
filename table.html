@@ -5,7 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/screen.css" media="all">
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'></head>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <script language="javascript" type="text/javascript" src="/js/jquery-2.1.3.js"></script>
+    <script src="js/styles.js"></script>
+</head>
+
 <body>
 
     <nav>
@@ -13,30 +17,30 @@
     </nav>
 
 	<div class="table-of-contents">
-	   <section class="sporty active">
+	   <section class="sporty">
 	       <h2>Sporty</h2>
             <div class="content">
-                <div class="subject-on">
+                <div class="subject">
                     <h3>Sporty</h3>
                     <ul>
-                        <li class"yoga">Try a Yoga Class </li>
-                        <li class="bowling">Join a Bowling Team </li>
-                        <li class="curling">Go Curling </li>
-                        <li class="kickball">Join a Kickball Team</li>
-                        <li class="fieldhockey">Play Field Hockey</li>
-                        <li class="cricket">Play Cricket</li>
-                        <li class="flagfootball">Join a Flag Football Team</li>
-                        <li class="rollerblade">Go Rollerblading</li>
-                        <li class="tennis">Take Tennis Lessons</li>
-                        <li class-"softball">Join a Softball Team</li>
-                        <li class="bike">Go on a Bicycle Ride</li>
-                        <li class="hike">Go Hiking</li>
-                        <li class="baseball">Join a Baseball Team</li>
-                        <li class="swim">Go Swimming</li>
+                        <li id='yoga'> Try a Yoga Class </li>
+                        <li id='bowling'>Join a Bowling Team </li>
+                        <li id='curling'>Go Curling </li>
+                        <li id='kickball'>Join a Kickball Team</li>
+                        <li id='fieldhockey'>Play Field Hockey</li>
+                        <li id='cricket'>Play Cricket</li>
+                        <li id='flagfootball'>Join a Flag Football Team</li>
+                        <li id='rollerblade'>Go Rollerblading</li>
+                        <li id='tennis'>Take Tennis Lessons</li>
+                        <li id-'softball'>Join a Softball Team</li>
+                        <li id='bike'>Go on a Bicycle Ride</li>
+                        <li id='hike'>Go Hiking</li>
+                        <li id='baseball'>Join a Baseball Team</li>
+                        <li id='swim'>Go Swimming</li>
                     </ul>
                 </div>
 
-                <div class="info yoga">
+                <div class="info" id="yoga">
                     <p> Whether you're a beginner or advanced yoga student, the benefits of yoga include greater flexibility and strength, improved core strength, and meditation.</p>
 
                     <h4>Yoga in Chicago</h4>
@@ -53,7 +57,7 @@
                     </ul>
                 </div>
 
-                <div class="info bowling">
+                <div class="info" id="bowling">
                     <p> Bowling is a lifetime fitness sport which contributes to balance, coordination and motor skills. The rules are not complex and the basics of how to roll the ball are quickly learned. </p>
 
                     <h4>Bowling Leagues in Chicago</h4>
@@ -70,7 +74,7 @@
                     </ul>
                 </div>
 
-                 <div class="info curling">
+                 <div class="info" id="curling">
                     <p> Curling offers physical health benefits in addition to positive mental health benefits through the social aspect of curling. Curlers improve their balance and strength as they sweep their way down the length of the ice. Flexibility is gained in the delivery of the rock from the hack. Like cross-country skiing, it is another sport that can be played throughout your life.</p>
 
                     <h4>Curling in Chicago</h4>
@@ -84,7 +88,7 @@
                     </ul>
                 </div>
 
-                 <div class="info kickball">
+                 <div class="info" id="kickball">
                     <p>Kickball is a great way for people of all ages and fitness levels to engage in well-rounded, moderate exercise. Team sports like kickball have also been proven to develop a player’s discipline, ability to get along with others and general happiness.</p>
 
                     <h4>Kickball in Chicago</h4>
@@ -101,7 +105,7 @@
                     </ul>
                 </div>
 
-                <div class="info fieldhockey">
+                <div class="info" id="fieldhockey">
                     <p>Field hockey is more straightforward. The game is low-scoring, but there’s a noticeable rhythm and flow to the action. It's like soccer with sticks.</p>
 
                     <h4>Field Hockey in Chicago</h4>
@@ -118,7 +122,7 @@
                     </ul>
                 </div>
 
-               <div class="info cricket">
+               <div class="info" id="cricket">
                     <p>Cricket is played with two teams normally of 11 players a side. Each team takes its turn to bat, attempting to score runs, while the other team fields</p>
 
                     <h4>Cricket in Chicago</h4>
@@ -135,7 +139,7 @@
                     </ul>
                 </div>
 
-                <div class="info flagfootball">
+                <div class="info" id="flagfootball">
                     <p>Flag football is a non-contact game, tackles are made by taking flags from opponents. It encourages team work, coordination, responsibility and decision making, in addition to the health benefits of regular exercise</p>
 
                     <h4>Flag Football in Chicago</h4>
@@ -152,7 +156,7 @@
                     </ul>
                 </div>
 
-            <div class="info rollerblade">
+            <div class="info" id="rollerblade">
                     <p>According to medical research, rollerskating and Inline Skating rank in thetop 3 activities that improve or maintain physical fitness and general well-being.</p>
 
                     <h4>Rollerblading in Chicago</h4>
@@ -174,7 +178,7 @@
                     </ul>
                 </div>
 
-                <div class="info tennis">
+                <div class="info" id="tennis">
                     <p>Tennis outperforms golf, inline skating and most other sports in developing positive personality characteristics, according to Dr. Jim Gavin -- author of The Exercise Habit.</p>
 
                     <h4>Tennis in Chicago</h4>
@@ -191,7 +195,7 @@
                     </ul>
                 </div>
 
-                <div class="info softball">
+                <div class="info" id="softball">
                     <p>As a team sport for female and males of all ages and abilities , softball offers participants many benefits including improved health and fitness, increased mental alertness, and a sense of belonging to a community with shared interests..</p>
                     <ul>
                         <li>
@@ -206,7 +210,7 @@
                     </ul>
                 </div>
 
-                 <div class="info bike">
+                 <div class="info" id="bike">
                     <p>Explore the city from a different point of view, ride down Lake Shore Drive, or take a day trip to the forest preserve. There's no better way to enjoy a beautiful day than on a bicycle!</p>
                     <ul>
                         <li>
@@ -221,7 +225,7 @@
                     </ul>
                 </div>
 
-                <div class="info hike">
+                <div class="info" id="hike">
                     <p>Whether it's a day trip to a forest preserve, or a long walk within city limits; hiking is a great way to clear your mind and enjoy nature.</p>
                     <ul>
                         <li>
@@ -236,7 +240,7 @@
                     </ul>
                 </div>
 
-                <div class="info baseball">
+                <div class="info" id="baseball">
                     <p>Maybe you're team can beat the Cubs this season!</p>
                     <ul>
                         <li>
@@ -251,7 +255,7 @@
                     </ul>
                 </div>
 
-                <div class="info swim info-on">
+                <div class="info" id="swim">
                     <p>Swimming is a great way to soak up the sun, improve flexability, and keep social.</p>
                     <ul>
                         <li>
@@ -265,10 +269,6 @@
                         </li>
                     </ul>
                 </div>
-
-
-
-
             </div>
         </section>
 

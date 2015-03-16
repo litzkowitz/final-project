@@ -1,5 +1,5 @@
 $(function() {
-    $('sporty').onClick(function() {
-        $(this).addClass('active');
+    $('.sporty').hover(function() {
+        $('.sporty').addClass('.sporty-active');
     });
 });
