@@ -70,6 +70,11 @@ h2 {
     font-weight: 400;
 }
 
+.li-hover {
+    color: #fff;
+    font-weight: 300;
+}
+
 /* SPECIFIC */
 .container {
     height: 100%;
@@ -121,7 +126,7 @@ h2 {
     display: none;
 }
 
-.active-sporty {
+.sporty.active {
     height: 100%;
     background: -webkit-linear-gradient(#f29e03, #27b059); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#f29e03, #27b059); /* For Opera 11.1 to 12.0 */
@@ -150,7 +155,6 @@ h2 {
         text-align: center;
         font-size: 1.5rem;
         text-transform: uppercase;
-        margin: 15px;
     }
 
     .subject {
@@ -180,7 +184,7 @@ h2 {
         width: 30%;
         padding-left: 75px;
         margin-right: 25px;
-        margin-top: 70px;
+        margin-top: 40px;
         vertical-align: top;
 
             p {
@@ -202,13 +206,14 @@ h2 {
             }
 
             a {
-                text-decoration: underline;
+                text-decoration: none;
                 text-align: left;
                 color: #000;
             }
 
             a:hover {
                 color:#fff;
+                font-style: italic;
             }
     }
 
@@ -217,103 +222,6 @@ h2 {
 .sporty {
     text-align: center;
     background-color: rgb(242, 158, 3);
-}
-
-.active-outdoorsy {
-    height: 100%;
-    background: -webkit-linear-gradient(#f29e03, #27b059); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#f29e03, #27b059); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#f29e03, #27b059); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#f29e03, #27b059); /* Standard syntax */
-
-    .content {
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        display: inline-block;
-
-        li {
-            font-weight: 400;
-            font-size: 1.25rem;
-            text-align: center;
-            line-height: 2.75rem;
-        }
-    }
-
-    h2 {
-        display: none;
-    }
-
-    h3 {
-        text-align: center;
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        margin: 15px;
-    }
-
-    .subject {
-        display: inline-block;
-
-            h3 {
-            padding-bottom: 25px;
-            }
-    }
-
-    .subject-on {
-        display: inline-block;
-        margin-left: 33%;
-
-        h3 {
-        padding-bottom: 25px;
-        }
-    }
-
-
-    .info {
-        display: none;
-    }
-
-    .info-on {
-        display: inline-block;
-        width: 30%;
-        padding-left: 75px;
-        margin-right: 25px;
-        margin-top: 70px;
-        vertical-align: top;
-
-            p {
-                text-align: left;
-                margin-top: 15px;
-            }
-
-            h4 {
-                font-size: 1rem;
-                text-align: left;
-                margin-top: 25px;
-                margin-bottom: 5px;
-            }
-
-            li {
-                font-size: 1rem;
-                text-align: left;
-                line-height: 2rem;
-            }
-
-            li:hover {
-                color:#fff;
-            }
-
-            a {
-                text-decoration: underline;
-                text-align: left;
-                color: #000;
-            }
-
-            a:hover {
-                color:#fff;
-            }
-    }
-
 }
 
 .outdoorsy {

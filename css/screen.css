@@ -115,6 +115,11 @@ h2 {
   font-weight: 400;
 }
 
+.li-hover {
+  color: #fff;
+  font-weight: 300;
+}
+
 /* SPECIFIC */
 .container {
   height: 100%;
@@ -162,7 +167,7 @@ h2 {
   display: none;
 }
 
-.active-sporty {
+.sporty.active {
   height: 100%;
   background: -webkit-linear-gradient(#f29e03, #27b059);
   /* For Safari 5.1 to 6.0 */
@@ -173,161 +178,78 @@ h2 {
   background: linear-gradient(#f29e03, #27b059);
   /* Standard syntax */
 }
-.active-sporty .content {
+.sporty.active .content {
   width: 100%;
   height: 100%;
   text-align: center;
   display: inline-block;
 }
-.active-sporty .content li {
+.sporty.active .content li {
   font-weight: 400;
   font-size: 1.25rem;
   text-align: center;
   line-height: 2.75rem;
 }
-.active-sporty h2 {
+.sporty.active h2 {
   display: none;
 }
-.active-sporty h3 {
+.sporty.active h3 {
   text-align: center;
   font-size: 1.5rem;
   text-transform: uppercase;
-  margin: 15px;
 }
-.active-sporty .subject {
+.sporty.active .subject {
   display: inline-block;
 }
-.active-sporty .subject h3 {
+.sporty.active .subject h3 {
   padding-bottom: 25px;
 }
-.active-sporty .subject-on {
+.sporty.active .subject-on {
   display: inline-block;
   margin-left: 33%;
 }
-.active-sporty .subject-on h3 {
+.sporty.active .subject-on h3 {
   padding-bottom: 25px;
 }
-.active-sporty .info {
+.sporty.active .info {
   display: none;
 }
-.active-sporty .info-on {
+.sporty.active .info-on {
   display: inline-block;
   width: 30%;
   padding-left: 75px;
   margin-right: 25px;
-  margin-top: 70px;
+  margin-top: 40px;
   vertical-align: top;
 }
-.active-sporty .info-on p {
+.sporty.active .info-on p {
   text-align: left;
   margin-top: 15px;
 }
-.active-sporty .info-on h4 {
+.sporty.active .info-on h4 {
   font-size: 1rem;
   text-align: left;
   margin-top: 25px;
   margin-bottom: 5px;
 }
-.active-sporty .info-on li {
+.sporty.active .info-on li {
   font-size: 1rem;
   text-align: left;
   line-height: 2rem;
 }
-.active-sporty .info-on a {
-  text-decoration: underline;
+.sporty.active .info-on a {
+  text-decoration: none;
   text-align: left;
   color: #000;
 }
-.active-sporty .info-on a:hover {
+.sporty.active .info-on a:hover {
   color: #fff;
+  font-style: italic;
 }
 
 .sporty {
   text-align: center;
   background-color: #f29e03;
-}
-
-.active-outdoorsy {
-  height: 100%;
-  background: -webkit-linear-gradient(#f29e03, #27b059);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#f29e03, #27b059);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#f29e03, #27b059);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#f29e03, #27b059);
-  /* Standard syntax */
-}
-.active-outdoorsy .content {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: inline-block;
-}
-.active-outdoorsy .content li {
-  font-weight: 400;
-  font-size: 1.25rem;
-  text-align: center;
-  line-height: 2.75rem;
-}
-.active-outdoorsy h2 {
-  display: none;
-}
-.active-outdoorsy h3 {
-  text-align: center;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  margin: 15px;
-}
-.active-outdoorsy .subject {
-  display: inline-block;
-}
-.active-outdoorsy .subject h3 {
-  padding-bottom: 25px;
-}
-.active-outdoorsy .subject-on {
-  display: inline-block;
-  margin-left: 33%;
-}
-.active-outdoorsy .subject-on h3 {
-  padding-bottom: 25px;
-}
-.active-outdoorsy .info {
-  display: none;
-}
-.active-outdoorsy .info-on {
-  display: inline-block;
-  width: 30%;
-  padding-left: 75px;
-  margin-right: 25px;
-  margin-top: 70px;
-  vertical-align: top;
-}
-.active-outdoorsy .info-on p {
-  text-align: left;
-  margin-top: 15px;
-}
-.active-outdoorsy .info-on h4 {
-  font-size: 1rem;
-  text-align: left;
-  margin-top: 25px;
-  margin-bottom: 5px;
-}
-.active-outdoorsy .info-on li {
-  font-size: 1rem;
-  text-align: left;
-  line-height: 2rem;
-}
-.active-outdoorsy .info-on li:hover {
-  color: #fff;
-}
-.active-outdoorsy .info-on a {
-  text-decoration: underline;
-  text-align: left;
-  color: #000;
-}
-.active-outdoorsy .info-on a:hover {
-  color: #fff;
 }
 
 .outdoorsy {
