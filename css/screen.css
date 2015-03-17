@@ -61,7 +61,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   width: 100%;
   font-size: 16px;
   margin: 0 auto;
@@ -79,7 +79,7 @@ a {
 }
 
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -111,6 +111,7 @@ nav a:hover {
 h2 {
   font-size: 1.5rem;
   margin: auto;
+  letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -133,15 +134,15 @@ h2 {
 }
 .intro-header a {
   color: #000;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 3.5rem;
+  line-height: 2.5rem;
   text-decoration: none;
   border: 4px solid black;
   border-radius: 50%;
-  padding: 125px;
+  padding: 75px;
   text-align: center;
-  width: 40%;
+  width: 35%;
   margin-left: 30%;
   margin-top: 15%;
   display: block;
@@ -156,6 +157,7 @@ h2 {
   width: 100%;
   height: 100%;
   position: relative;
+  cursor: pointer;
 }
 .table-of-contents > section {
   flex: 0 1 100%;
@@ -165,6 +167,79 @@ h2 {
 
 .content {
   display: none;
+}
+
+.parentselect.active .content {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.parentselect.active .content li {
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 2.75rem;
+  display: block;
+}
+.parentselect.active h2 {
+  display: none;
+}
+.parentselect.active .subject h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 25px;
+}
+.parentselect.active .subject {
+  display: inline-block;
+}
+.parentselect.active .subject-on {
+  display: block;
+  width: 65%;
+  float: left;
+  padding-left: 35%;
+}
+.parentselect.active .subject-on h3 {
+  padding-bottom: 25px;
+}
+.parentselect.active .info {
+  display: none;
+}
+.parentselect.active .info-on {
+  display: inline-block;
+  width: 35%;
+  margin-top: 40px;
+  padding-right: 7%;
+  padding-left: 3%;
+  vertical-align: top;
+}
+.parentselect.active .info-on p {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.parentselect.active .info-on h4 {
+  font-size: 1.25rem;
+  text-align: left;
+  margin-top: 18px;
+  color: #fff;
+}
+.parentselect.active .info-on li {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 2rem;
+}
+.parentselect.active .info-on a {
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+}
+.parentselect.active .info-on a:hover {
+  color: #000;
 }
 
 .sporty.active {
@@ -177,74 +252,6 @@ h2 {
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(#f29e03, #27b059);
   /* Standard syntax */
-}
-.sporty.active .content {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: inline-block;
-}
-.sporty.active .content li {
-  font-weight: 400;
-  font-size: 1.25rem;
-  text-align: center;
-  line-height: 2.75rem;
-}
-.sporty.active h2 {
-  display: none;
-}
-.sporty.active h3 {
-  text-align: center;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-}
-.sporty.active .subject {
-  display: inline-block;
-}
-.sporty.active .subject h3 {
-  padding-bottom: 25px;
-}
-.sporty.active .subject-on {
-  display: inline-block;
-  margin-left: 33%;
-}
-.sporty.active .subject-on h3 {
-  padding-bottom: 25px;
-}
-.sporty.active .info {
-  display: none;
-}
-.sporty.active .info-on {
-  display: inline-block;
-  width: 30%;
-  padding-left: 75px;
-  margin-right: 25px;
-  margin-top: 40px;
-  vertical-align: top;
-}
-.sporty.active .info-on p {
-  text-align: left;
-  margin-top: 15px;
-}
-.sporty.active .info-on h4 {
-  font-size: 1rem;
-  text-align: left;
-  margin-top: 25px;
-  margin-bottom: 5px;
-}
-.sporty.active .info-on li {
-  font-size: 1rem;
-  text-align: left;
-  line-height: 2rem;
-}
-.sporty.active .info-on a {
-  text-decoration: none;
-  text-align: left;
-  color: #000;
-}
-.sporty.active .info-on a:hover {
-  color: #fff;
-  font-style: italic;
 }
 
 .sporty {
@@ -262,74 +269,6 @@ h2 {
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(#27b059, #33b7e4);
   /* Standard syntax */
-}
-.outdoorsy.active .content {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: inline-block;
-}
-.outdoorsy.active .content li {
-  font-weight: 400;
-  font-size: 1.25rem;
-  text-align: center;
-  line-height: 2.75rem;
-}
-.outdoorsy.active h2 {
-  display: none;
-}
-.outdoorsy.active h3 {
-  text-align: center;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-}
-.outdoorsy.active .subject {
-  display: inline-block;
-}
-.outdoorsy.active .subject h3 {
-  padding-bottom: 25px;
-}
-.outdoorsy.active .subject-on {
-  display: inline-block;
-  margin-left: 33%;
-}
-.outdoorsy.active .subject-on h3 {
-  padding-bottom: 25px;
-}
-.outdoorsy.active .info {
-  display: none;
-}
-.outdoorsy.active .info-on {
-  display: inline-block;
-  width: 30%;
-  padding-left: 75px;
-  margin-right: 25px;
-  margin-top: 40px;
-  vertical-align: top;
-}
-.outdoorsy.active .info-on p {
-  text-align: left;
-  margin-top: 15px;
-}
-.outdoorsy.active .info-on h4 {
-  font-size: 1rem;
-  text-align: left;
-  margin-top: 25px;
-  margin-bottom: 5px;
-}
-.outdoorsy.active .info-on li {
-  font-size: 1rem;
-  text-align: left;
-  line-height: 2rem;
-}
-.outdoorsy.active .info-on a {
-  text-decoration: none;
-  text-align: left;
-  color: #000;
-}
-.outdoorsy.active .info-on a:hover {
-  color: #fff;
-  font-style: italic;
 }
 
 .outdoorsy {

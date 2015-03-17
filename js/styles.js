@@ -1,6 +1,6 @@
 $(function() {
-    $(".sporty").click(function() {
-		$(this).addClass("active");
+    $(".activity").click(function() {
+		$(this).closest(".parentselect").toggleClass("active");
     });
 
     $('li').hover(function() {
@@ -15,7 +15,4 @@ $(function() {
     	$("#" + id).addClass('info-on');
     });
 
-    $(".outdoorsy").click(function() {
-		$(this).addClass("active");
-    });
 });
