@@ -14,4 +14,8 @@ $(function() {
 		var id = $(this).attr('data-id');
     	$("#" + id).addClass('info-on');
     });
+
+    $(".outdoorsy").click(function() {
+		$(this).addClass("active");
+    });
 });

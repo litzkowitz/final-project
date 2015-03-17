@@ -252,6 +252,86 @@ h2 {
   background-color: #f29e03;
 }
 
+.outdoorsy.active {
+  height: 100%;
+  background: -webkit-linear-gradient(#27b059, #33b7e4);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#27b059, #33b7e4);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#27b059, #33b7e4);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#27b059, #33b7e4);
+  /* Standard syntax */
+}
+.outdoorsy.active .content {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.outdoorsy.active .content li {
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 2.75rem;
+}
+.outdoorsy.active h2 {
+  display: none;
+}
+.outdoorsy.active h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.outdoorsy.active .subject {
+  display: inline-block;
+}
+.outdoorsy.active .subject h3 {
+  padding-bottom: 25px;
+}
+.outdoorsy.active .subject-on {
+  display: inline-block;
+  margin-left: 33%;
+}
+.outdoorsy.active .subject-on h3 {
+  padding-bottom: 25px;
+}
+.outdoorsy.active .info {
+  display: none;
+}
+.outdoorsy.active .info-on {
+  display: inline-block;
+  width: 30%;
+  padding-left: 75px;
+  margin-right: 25px;
+  margin-top: 40px;
+  vertical-align: top;
+}
+.outdoorsy.active .info-on p {
+  text-align: left;
+  margin-top: 15px;
+}
+.outdoorsy.active .info-on h4 {
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.outdoorsy.active .info-on li {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 2rem;
+}
+.outdoorsy.active .info-on a {
+  text-decoration: none;
+  text-align: left;
+  color: #000;
+}
+.outdoorsy.active .info-on a:hover {
+  color: #fff;
+  font-style: italic;
+}
+
 .outdoorsy {
   text-align: center;
   background-color: #27b059;
