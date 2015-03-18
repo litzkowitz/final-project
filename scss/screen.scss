@@ -69,6 +69,7 @@ h2 {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 400;
+    text-align: center;
 }
 
 .li-hover {
@@ -156,7 +157,7 @@ h2 {
             letter-spacing: 1px;
             text-transform: uppercase;
             display: block;
-            padding-bottom: 25px;
+            padding-bottom: 25px;;
 
         }
 
@@ -220,6 +221,11 @@ h2 {
         }
 }
 
+.sporty {
+    text-align: center;
+    background-color: rgb(242, 158, 3);
+}
+
 .sporty.active {
     height: 100%;
     background: -webkit-linear-gradient(#f29e03, #27b059); /* For Safari 5.1 to 6.0 */
@@ -228,9 +234,9 @@ h2 {
     background: linear-gradient(#f29e03, #27b059); /* Standard syntax */
 }
 
-.sporty {
+.outdoorsy {
     text-align: center;
-    background-color: rgb(242, 158, 3);
+    background-color: rgb(39, 176, 89);
 }
 
 .outdoorsy.active {
@@ -241,14 +247,17 @@ h2 {
     background: linear-gradient(#27b059, #33b7e4); /* Standard syntax */
 }
 
-.outdoorsy {
-    text-align: center;
-    background-color: rgb(39, 176, 89);
-}
-
 .culinary {
     text-align: center;
     background-color: rgb(51, 183, 228);
+}
+
+.culinary.active {
+    height: 100%;
+    background: -webkit-linear-gradient(#33b7e4, #de5e86); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#33b7e4, #de5e86); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#33b7e4, #de5e86); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#33b7e4, #de5e86); /* Standard syntax */
 }
 
 .creative {
@@ -256,10 +265,25 @@ h2 {
     background-color: rgb(222, 94, 134);
 }
 
+.creative.active {
+    height: 100%;
+    background: -webkit-linear-gradient(#de5e86, #8680d5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#de5e86, #8680d5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#de5e86, #8680d5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#de5e86, #8680d5); /* Standard syntax */
+}
 
 .social {
     text-align: center;
     background-color: rgb(134, 128, 213);
+}
+
+.social.active {
+    height: 100%;
+    background: -webkit-linear-gradient(#8680d5, #3dab9e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#8680d5, #3dab9e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#8680d5, #3dab9e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#8680d5, #3dab9e); /* Standard syntax */
 }
 
 .brainy {
@@ -267,9 +291,25 @@ h2 {
     background-color: rgb(61, 171, 158);
 }
 
+.brainy.active {
+    height: 100%;
+    background: -webkit-linear-gradient(#3dab9e, #e4a159); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3dab9e, #e4a159); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3dab9e, #e4a159); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3dab9e, #e4a159); /* Standard syntax */
+}
+
 .crafty {
     text-align: center;
     background-color: rgb(228, 161, 89);
+}
+
+.crafty.active {
+    height: 100%;
+    background: -webkit-linear-gradient(#e4a159, #5ca0d3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e4a159, #5ca0d3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e4a159, #5ca0d3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e4a159, #5ca0d3); /* Standard syntax */
 }
 
 .gutsy {
@@ -277,12 +317,36 @@ h2 {
     background-color: rgb(92, 160, 211);
 }
 
+.gutsy.active {
+    height: 100%;
+    background: -webkit-linear-gradient(#5ca0d3, #e7e72f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5ca0d3, #e7e72f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5ca0d3, #e7e72f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5ca0d3, #e7e72f); /* Standard syntax */
+}
+
 .worldly {
     text-align: center;
     background-color: rgb(231, 231, 47);
 }
 
+.worldly.active {
+    height: 100%;
+    background: -webkit-linear-gradient(#e7e72f, #74d530); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e7e72f, #74d530); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e7e72f, #74d530); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e7e72f, #74d530); /* Standard syntax */
+}
+
 .charitable {
     text-align: center;
     background-color: rgb(116, 213, 48);
+}
+
+.charitable.active {
+    height: 100%;
+    background: -webkit-linear-gradient(#74d530, #f29e03); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#74d530, #f29e03); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#74d530, #f29e03); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#74d530, #f29e03); /* Standard syntax */
 }
