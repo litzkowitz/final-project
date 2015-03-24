@@ -36,8 +36,12 @@ p {
 
 nav {
     position: absolute;
-    margin-left: 5%;
     z-index: 5;
+    height: auto;
+    -webkit-transition: height 0.2s ease-out 0s;
+    -moz-transition: height 0.2s ease-out 0s;
+    -o-transition: height 0.2s ease-out 0s;
+    transition: height 0.2s ease-out 0s;
 
     .path {
         margin: 50px;
@@ -50,6 +54,10 @@ nav {
             z-index: 16;
         }
 
+    }
+
+    .fixed-nav {
+        display: none;
     }
 }
 
@@ -104,13 +112,17 @@ h2 {
 }
 
 .table-of-contents {
+    margin-top: 0;
     display: flex;
     flex-flow: row wrap;
     width: 100%;
     height: 100%;
     position: relative;
     cursor: pointer;
-
+    -webkit-transition: all 0.2s ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
 
     > section {
         flex: 0 1 100%;
@@ -164,6 +176,7 @@ h2 {
             width: 65%;
             float: left;
             padding-left: 35%;
+
 
             h3 {
             padding-bottom: 25px;
@@ -344,3 +357,43 @@ h2 {
     background: -moz-linear-gradient(#74d530, #f29e03); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#74d530, #f29e03); /* Standard syntax */
 }
+
+//MEDIA QUERIES//
+@media only screen and (max-width: 1050px) {
+    .parentselect.active .subject-on {
+        padding-left: 20%;
+
+            .activity {
+                padding-left: 33%;
+            }
+    }
+} /* End 1050px */
+
+@media only screen and (max-width: 800px) {
+    nav {
+        position: fixed;
+        height: 71px;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        background-color: yellow;
+
+            .path {
+                display: none;
+            }
+
+        a.fixed-nav {
+                display: inline-block;
+                text-align: center;
+                padding-top: 10px;
+                width: 100%;
+                color: #000;
+                text-decoration: none;
+            }
+    }
+
+    .table-of-contents {
+        margin-top: 71px;
+    }
+} /* End 800px */
