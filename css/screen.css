@@ -440,6 +440,7 @@ h2 {
     z-index: 10;
     width: 100%;
     background-color: yellow;
+    border-bottom: 2px dashed black;
   }
   nav .path {
     display: none;
@@ -447,7 +448,8 @@ h2 {
   nav a.fixed-nav {
     display: inline-block;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 25px;
+    font-size: 1.5rem;
     width: 100%;
     color: #000;
     text-decoration: none;
@@ -455,6 +457,20 @@ h2 {
 
   .table-of-contents {
     margin-top: 71px;
+  }
+
+  .parentselect.active .subject-on {
+    display: block;
+    float: left;
+    padding-left: 0%;
+  }
+  .parentselect.active .info-on {
+    display: inline-block;
+    width: 35%;
+    margin-top: 40px;
+    padding-right: 7%;
+    padding-left: 0%;
+    vertical-align: top;
   }
 }
 /* End 800px */
