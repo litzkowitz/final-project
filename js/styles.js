@@ -12,8 +12,29 @@ $(function() {
         $('.creative').addClass('active');
     });
 
+       $('.creative-link[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+
+       $('html, body').stop().animate({
+            'scrollTop': $('.creative').offset().top-0
+         }, 500, 'swing', function () {
+        });
+    });
+
+
     $(".gutsy-link").click(function() {
         $('.gutsy').addClass('active');
+    });
+
+    $('.gutsy-link[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+
+       $('html, body').stop().animate({
+            'scrollTop': $('.gutsy').offset().top-0
+         }, 500, 'swing', function () {
+        });
     });
 
     $('.subject li').click(function() {
@@ -35,7 +56,7 @@ $(function() {
         }
     });
 
-    $('a[href^="#"]').on('click',function (e) {
+    $('.fixed-nav[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
         var target = this.hash,
