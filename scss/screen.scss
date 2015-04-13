@@ -85,6 +85,33 @@ h2 {
   }
 }
 
+.secondary-nav {
+    display: none;
+    position: fixed;
+    width: 100px;
+    float: left;
+    line-height: 2rem;
+    font-weight: 300;
+    margin-left: 100px;
+    padding-top: 125px;
+    z-index: 20;
+    text-align: left;
+    transition: font-size 0.5s ease;
+
+        a {
+            text-decoration: none;
+            padding: 10px;
+            color: rgba(#fff, 0.5);
+
+        }
+
+        a:hover {
+            color: #fff;
+            text-align: left;
+            font-size: 1.5rem;
+        }
+}
+
 
 /* SPECIFIC */
 .container {
@@ -382,7 +409,7 @@ h2 {
 
 
             .path {
-                display: none;
+                display: none !important;
             }
 
         a.fixed-nav {
@@ -396,6 +423,10 @@ h2 {
             }
     }
 
+    .secondary-nav {
+        display: none !important;
+    }
+    
     .table-of-contents {
         margin-top: 71px;
     }

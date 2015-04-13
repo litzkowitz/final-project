@@ -132,6 +132,30 @@ h2 {
     stroke-dashoffset: 1000;
   }
 }
+.secondary-nav {
+  display: none;
+  position: fixed;
+  width: 100px;
+  float: left;
+  line-height: 2rem;
+  font-weight: 300;
+  margin-left: 100px;
+  padding-top: 125px;
+  z-index: 20;
+  text-align: left;
+  transition: font-size 0.5s ease;
+}
+.secondary-nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.secondary-nav a:hover {
+  color: #fff;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
 /* SPECIFIC */
 .container {
   height: 100%;
@@ -443,7 +467,7 @@ h2 {
     border-bottom: 2px dashed black;
   }
   nav .path {
-    display: none;
+    display: none !important;
   }
   nav a.fixed-nav {
     display: inline-block;
@@ -453,6 +477,10 @@ h2 {
     width: 100%;
     color: #000;
     text-decoration: none;
+  }
+
+  .secondary-nav {
+    display: none !important;
   }
 
   .table-of-contents {
