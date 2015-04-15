@@ -8,7 +8,49 @@ $(function() {
     	$(this).toggleClass("li-hover");
     });
 
-   $(".creative-link").click(function() {
+    $(".sporty-link").click(function() {
+        $('.sporty').addClass('active');
+    });
+
+       $('.sporty-link[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+
+       $('html, body').stop().animate({
+            'scrollTop': $('.sporty').offset().top-0
+         }, 500, 'swing', function () {
+        });
+    });
+
+    $(".outdoorsy-link").click(function() {
+        $('.outdoorsy').addClass('active');
+    });
+
+       $('.outdoorsy-link[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+
+       $('html, body').stop().animate({
+            'scrollTop': $('.outdoorsy').offset().top-0
+         }, 500, 'swing', function () {
+        });
+    });
+
+    $(".culinary-link").click(function() {
+        $('.culinary').addClass('active');
+    });
+
+       $('.culinary-link[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+
+       $('html, body').stop().animate({
+            'scrollTop': $('.culinary').offset().top-0
+         }, 500, 'swing', function () {
+        });
+    });
+
+    $(".creative-link").click(function() {
         $('.creative').addClass('active');
     });
 
@@ -22,6 +64,47 @@ $(function() {
         });
     });
 
+    $(".social-link").click(function() {
+        $('.social').addClass('active');
+    });
+
+       $('.social-link[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+
+       $('html, body').stop().animate({
+            'scrollTop': $('.social').offset().top-0
+         }, 500, 'swing', function () {
+        });
+    });
+
+    $(".brainy-link").click(function() {
+        $('.brainy').addClass('active');
+    });
+
+       $('.brainy-link[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+
+       $('html, body').stop().animate({
+            'scrollTop': $('.brainy').offset().top-0
+         }, 500, 'swing', function () {
+        });
+    });
+
+   $(".crafty-link").click(function() {
+        $('.crafty').addClass('active');
+    });
+
+       $('.crafty-link[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+
+       $('html, body').stop().animate({
+            'scrollTop': $('.crafty').offset().top-0
+         }, 500, 'swing', function () {
+        });
+    });
 
     $(".gutsy-link").click(function() {
         $('.gutsy').addClass('active');
@@ -36,6 +119,35 @@ $(function() {
          }, 500, 'swing', function () {
         });
     });
+
+    $(".worldly-link").click(function() {
+        $('.worldly').addClass('active');
+    });
+
+       $('.worldly-link[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+
+       $('html, body').stop().animate({
+            'scrollTop': $('.worldly').offset().top-0
+         }, 500, 'swing', function () {
+        });
+    });
+
+    $(".charitable-link").click(function() {
+        $('.charitable').addClass('active');
+    });
+
+       $('.charitable-link[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+
+       $('html, body').stop().animate({
+            'scrollTop': $('.charitable').offset().top-0
+         }, 500, 'swing', function () {
+        });
+    });
+
 
     $('.subject li').click(function() {
     	$(".info").removeClass('info-on');
