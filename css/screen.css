@@ -96,7 +96,7 @@ nav {
   transition: height 0.2s ease-out 0s;
 }
 nav .path {
-  margin: 50px;
+  margin: 40px;
 }
 nav .path a {
   font-size: 1.5rem;
@@ -139,7 +139,7 @@ h2 {
   float: left;
   line-height: 2rem;
   font-weight: 300;
-  margin-left: 100px;
+  margin-left: 75px;
   padding-top: 125px;
   z-index: 20;
   text-align: left;
@@ -245,7 +245,7 @@ h2 {
 .parentselect.active .info-on {
   display: inline-block;
   width: 35%;
-  margin-top: 40px;
+  margin-top: 45px;
   padding-right: 7%;
   padding-left: 3%;
   vertical-align: top;
@@ -448,10 +448,10 @@ h2 {
 
 @media only screen and (max-width: 1050px) {
   .parentselect.active .subject-on {
-    padding-left: 20%;
+    padding-left: 40%;
   }
   .parentselect.active .subject-on .activity {
-    padding-left: 33%;
+    padding-left: 0%;
   }
 }
 /* End 1050px */
