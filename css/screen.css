@@ -216,6 +216,13 @@ h2 {
   line-height: 2.75rem;
   display: block;
 }
+.parentselect.active .content a {
+  text-decoration: none;
+  color: #000;
+}
+.parentselect.active .content a:hover {
+  color: #fff;
+}
 .parentselect.active h2 {
   display: none;
 }
@@ -447,9 +454,6 @@ h2 {
 }
 
 @media only screen and (max-width: 1050px) {
-  .parentselect.active .subject-on {
-    padding-left: 40%;
-  }
   .parentselect.active .subject-on .activity {
     padding-left: 0%;
   }

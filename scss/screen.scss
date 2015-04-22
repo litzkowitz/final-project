@@ -176,7 +176,15 @@ h2 {
                 text-align: center;
                 line-height: 2.75rem;
                 display: block;
+            }
 
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+
+            a:hover{
+                color:#fff;
             }
         }
 
@@ -190,7 +198,7 @@ h2 {
             letter-spacing: 1px;
             text-transform: uppercase;
             display: block;
-            padding-bottom: 25px;;
+            padding-bottom: 25px;
 
         }
 
@@ -388,7 +396,6 @@ h2 {
 //MEDIA QUERIES//
 @media only screen and (max-width: 1050px) {
     .parentselect.active .subject-on {
-        padding-left: 40%;
 
             .activity {
                 padding-left: 0%;

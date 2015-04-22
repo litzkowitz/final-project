@@ -4,15 +4,11 @@ $(function() {
 		$(this).closest(".parentselect").toggleClass("active");
     });
 
-    $('li').hover(function() {
-    	$(this).toggleClass("li-hover");
-    });
-
     $(".sporty-link").click(function() {
         $('.sporty').addClass('active');
     });
 
-       $('.sporty-link[href^="#"]').on('click',function (e) {
+    $('.sporty-link[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
 
@@ -22,11 +18,30 @@ $(function() {
         });
     });
 
+
+
+
+
+    $('.sporty-subject[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+
+       $('html, body').stop().animate({
+            'scrollTop': $('.sporty').offset().top-0
+         }, 500, 'swing', function () {
+        });
+    });
+
+
+
+
+
+
     $(".outdoorsy-link").click(function() {
         $('.outdoorsy').addClass('active');
     });
 
-       $('.outdoorsy-link[href^="#"]').on('click',function (e) {
+    $('.outdoorsy-link[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
 
@@ -40,7 +55,7 @@ $(function() {
         $('.culinary').addClass('active');
     });
 
-       $('.culinary-link[href^="#"]').on('click',function (e) {
+    $('.culinary-link[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
 
@@ -54,7 +69,7 @@ $(function() {
         $('.creative').addClass('active');
     });
 
-       $('.creative-link[href^="#"]').on('click',function (e) {
+    $('.creative-link[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
 
@@ -68,7 +83,7 @@ $(function() {
         $('.social').addClass('active');
     });
 
-       $('.social-link[href^="#"]').on('click',function (e) {
+    $('.social-link[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
 
@@ -82,7 +97,7 @@ $(function() {
         $('.brainy').addClass('active');
     });
 
-       $('.brainy-link[href^="#"]').on('click',function (e) {
+    $('.brainy-link[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
 
@@ -96,7 +111,7 @@ $(function() {
         $('.crafty').addClass('active');
     });
 
-       $('.crafty-link[href^="#"]').on('click',function (e) {
+    $('.crafty-link[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
 
@@ -124,7 +139,7 @@ $(function() {
         $('.worldly').addClass('active');
     });
 
-       $('.worldly-link[href^="#"]').on('click',function (e) {
+    $('.worldly-link[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
 
@@ -138,7 +153,7 @@ $(function() {
         $('.charitable').addClass('active');
     });
 
-       $('.charitable-link[href^="#"]').on('click',function (e) {
+    $('.charitable-link[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
 
