@@ -453,58 +453,101 @@ h2 {
   /* Standard syntax */
 }
 
+.mobile-soon {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: #ffdf00;
+}
+.mobile-soon p {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-left: 20%;
+  margin-top: 60%;
+  transition: all 200ms ease;
+}
+
 @media only screen and (max-width: 1050px) {
   .parentselect.active .subject-on .activity {
     padding-left: 0%;
   }
 }
 /* End 1050px */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 650px) {
   nav {
-    position: fixed;
-    height: 71px;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    background-color: yellow;
-    border-bottom: 2px dashed black;
-  }
-  nav .path {
-    display: none !important;
-  }
-  nav a.fixed-nav {
-    display: inline-block;
-    text-align: center;
-    padding-top: 25px;
-    font-size: 1.5rem;
-    width: 100%;
-    color: #000;
-    text-decoration: none;
+    display: none;
   }
 
   .secondary-nav {
-    display: none !important;
+    display: none;
   }
 
   .table-of-contents {
-    margin-top: 71px;
+    display: none;
   }
 
-  .parentselect.active .subject-on {
+  .mobile-soon {
     display: block;
-    float: left;
-    padding-left: 0%;
   }
-  .parentselect.active .info-on {
-    display: inline-block;
-    width: 35%;
-    margin-top: 40px;
-    padding-right: 7%;
-    padding-left: 0%;
-    vertical-align: top;
+  .mobile-soon p {
+    margin-left: 10%;
+    margin-top: 50%;
   }
 }
-/* End 800px */
+/*@media only screen and (max-width: 800px) {
+    nav {
+        position: fixed;
+        height: 71px;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        background-color: yellow;
+        border-bottom: 2px dashed black;
+
+
+            .path {
+                display: none !important;
+            }
+
+        a.fixed-nav {
+                display: inline-block;
+                text-align: center;
+                padding-top: 25px;
+                font-size: 1.5rem;
+                width: 100%;
+                color: #000;
+                text-decoration: none;
+            }
+    }
+
+    .secondary-nav {
+        display: none !important;
+    }
+    
+    .table-of-contents {
+        margin-top: 71px;
+    }
+
+.parentselect.active {
+        .subject-on {
+            display: block;
+            float: left;
+            padding-left: 0%;
+        }
+
+        .info-on {
+            display: inline-block;
+            width: 35%;
+            margin-top: 40px;
+            padding-right: 7%;
+            padding-left: 0%;
+            vertical-align: top;
+        }
+}
+
+
+} End 800px */
 
 /*# sourceMappingURL=screen.css.map */

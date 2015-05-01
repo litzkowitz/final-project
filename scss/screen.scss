@@ -393,6 +393,22 @@ h2 {
     background: linear-gradient(#74d530, #f29e03); /* Standard syntax */
 }
 
+.mobile-soon {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 223,0);
+
+    p {
+        text-align: center;
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-left: 20%;
+        margin-top: 60%;
+        transition: all 200ms ease;
+    }
+}
+
 //MEDIA QUERIES//
 @media only screen and (max-width: 1050px) {
     .parentselect.active .subject-on {
@@ -403,7 +419,30 @@ h2 {
     }
 } /* End 1050px */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 650px){
+    nav {
+        display: none;
+    }
+
+    .secondary-nav {
+        display: none;
+    }
+
+    .table-of-contents {
+        display: none;
+    }
+
+    .mobile-soon {
+        display: block;
+
+        p {
+            margin-left: 10%;
+            margin-top: 50%;
+        }
+    }
+}
+
+/*@media only screen and (max-width: 800px) {
     nav {
         position: fixed;
         height: 71px;
@@ -456,4 +495,4 @@ h2 {
 }
 
 
-} /* End 800px */
+} End 800px */
